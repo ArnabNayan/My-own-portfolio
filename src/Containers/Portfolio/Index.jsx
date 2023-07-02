@@ -10,7 +10,7 @@ import { useState } from "react";
 const portfolioData=[
     {
         id:1,
-        name:"Chef-Recipe Hunter",
+        name:"Food Master",
         image:IMG1,
         client_side:"https://github.com/ArnabNayan/chef-recipe-hunter-client",
         server_side:"https://github.com/ArnabNayan/chef-recipe-hunter-server-side",

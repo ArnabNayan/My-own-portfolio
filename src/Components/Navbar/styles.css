@@ -1,5 +1,6 @@
 .navbar{
     background-color: var( --yellow-theme-nav-background-color) ;
+    
     height: 80px;
     display: flex;
     justify-content: space-between;

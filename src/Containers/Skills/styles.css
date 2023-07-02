@@ -23,6 +23,7 @@
     grid-column-gap:50px;
     grid-row-gap:15px;
    margin-top: 20px;
+   background-color: var(--yellow-theme-background-color);
   }
   .skill-main .skill-bar .info{
     display: flex;

@@ -39,17 +39,17 @@ const Contact = () => {
             }
             }>
               <article className="contact_option">
-              <FaEnvelope className="text-yellow-400"/>
+              <FaEnvelope className="col"/>
                 <h4>Email</h4>
                 <h5>arnabnayan5@gmail.com</h5>
                 <a className="text-sky-400 hover:text-red-600" href="mailto:arnabnayan5@gmail.com">Send a message</a>
               </article>
               <article className="contact_option">
            
-              <FaWhatsapp className="text-green-400"/>
+              <FaWhatsapp className="col"/>
                 <h4>Whatsapp</h4>
                 <h5>01630299817</h5>
-                <a className="text-sky-400 hover:text-red-600" href="https://api.whatsapp.com/send?phone+8801630299817"target="blank">Send a message</a>
+                <a className="text-sky-400 hover:text-red-600" href="https://wa.me/01630299817"target="blank">Send a message</a>
               </article>
               </Animate>
             </div>

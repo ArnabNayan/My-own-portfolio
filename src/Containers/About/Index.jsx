@@ -1,6 +1,7 @@
 import HeaderContainer from "../../Components/HeaderContainer/Index";
 import { FaInfoCircle } from 'react-icons/fa';
 import { Animate } from "react-simple-animate";
+import image from '../../assets/Image/IMG-20220519-WA0000-removebg-preview (6).png';
 import './styles.css'
 // const personalDetails=[
 //     {
@@ -91,7 +92,7 @@ const About = () => {
                 transform:"translatex(0px)",
             }
             }>
-                <img src="/src/assets/Image/IMG-20220519-WA0000-removebg-preview (6).png" alt="" />
+                <img src={image}alt="" />
                 </Animate>
             </div>
     

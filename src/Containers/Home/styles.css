@@ -6,6 +6,8 @@
     justify-content: center;
     align-content: center;
     flex-direction: column;
+    background: var(--yellow-theme-background-color);
+    overflow: hidden;
 }
 .home_text{
     display: flex;
@@ -34,7 +36,7 @@
     margin:0px;
     font-weight: 500;
     font-size:8rem;
-    margin-top: 96px;
+    margin-top: 90px;
     line-height: 10rem;
     position: relative;
     overflow: hidden;
@@ -44,10 +46,11 @@
 .home-contact-me{
     display: flex;
     justify-content: center;
-    margin-top: 15px;
+    margin-top: 10px;
 }
 .homes{
     display:flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     gap: 10px;
@@ -86,17 +89,44 @@
     flex-direction: row;
     gap:10px;
 }
+.contact-links{
+    display: flex;
+    justify-content: center;
+    
+}
+.buttons{
+    text-align: center;
+    color: var(--blue-theme-main-color);
+   cursor: pointer;
+    font-size:40px;
+    padding: 10px;
+    
+    width:50px;
+}
+
+.btn:hover{
+    background: var(--blue-theme-main-color);
+}
 @media only screen and (max-width:550px){
     .home_text h1{
         font-size: 3rem;
         line-height: 5rem;
     } 
+    .homes{
+        flex-direction: column;
+    }
+    .home-contact-me{
+        padding: 10px 40px;
+    }
 }
 @media only screen and (min-width:551px)  and (max-width:768px){
     .home_text h1{
         font-size: 4rem;
         line-height: 6rem;
     } 
+    .homes{
+        flex-direction: column;
+    }
 }
 @media only screen and (min-width:769px)  and (max-width:990px){
     .home_text h1{
@@ -108,6 +138,7 @@
         align-items: center;
         margin-top: 96px;
     } 
+   
 }
 @keyframes typingEffectAnimation{
     from{

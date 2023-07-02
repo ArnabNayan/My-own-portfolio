@@ -1,7 +1,7 @@
 import { Outlet } from "react-router-dom";
 import Navbar from "../Navbar/Navbar";
-import Particle from "../../Utils/Particle";
-
+// import Particle from "../../Utils/Particle";
+// import Footer from '../../Containers/Footer/Index';
 
 
 
@@ -12,10 +12,10 @@ const Main = () => {
         <div> 
           
             <Navbar></Navbar>
-            <Particle></Particle>
+            {/* <Particle></Particle> */}
+           
            <Outlet></Outlet> 
-      
-          
+            {/* <Footer></Footer>       */}
         </div>
     );
 };

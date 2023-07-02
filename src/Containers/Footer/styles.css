@@ -1,0 +1,16 @@
+.footer{
+    font-size: 2rem;
+    color: var(--blue-theme-main-color);
+    margin-top: 80px;
+   /* background-color: var(--blue-theme-background-color) ; */
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(42, 24, 66, 0.404);
+    
+}
+.footers{
+    text-align: center;
+    padding: 20px;
+}

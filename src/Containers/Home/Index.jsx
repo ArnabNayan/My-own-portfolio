@@ -1,10 +1,12 @@
 import { Link } from 'react-router-dom';
 import './styles.css';
 import { Animate } from "react-simple-animate";
-import { FaDownload } from 'react-icons/fa';
+import { FaDownload,FaFacebook, FaLinkedin } from 'react-icons/fa';
 import resume from '../../assets/Image/Untitled document (1) (2).pdf'
+import Footer from '../Footer/Index';
 const Home = () => {
     return (
+        
         <section id="home"className="home">
          
             <div className="home_text">
@@ -24,7 +26,7 @@ const Home = () => {
             duration={2}
             deley={2}
             start={{
-                transform:"translateY(550px)",
+                transform:"translateX(550px)",
             }
             }
             end={{
@@ -45,11 +47,22 @@ const Home = () => {
                
             </div>
             </div>
+            <div className='contact-links'>
+                <button className='buttons'>
+              <a href="https://www.facebook.com/arnabdas.nayan"target="blank"><FaFacebook /></a>
+                </button>
+                <div>
+                <button className='buttons'>
+               <a href="https://www.linkedin.com/in/arnab-das-945ba2280/"target='blank'><FaLinkedin /></a>
+                </button>
+                </div>
+            </div>
             </Animate>
        
-      
+            <Footer></Footer>
         </section>
-  
+        
+        
     );
 };
 
